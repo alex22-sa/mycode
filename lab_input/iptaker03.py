@@ -3,15 +3,16 @@
    CHALLENGE 01 - Solution"""    
 
 def main():
-
-    user_input = input("What is your name: ")
-    
-    print("Hello:", user_input)
-    
-    # asking user for 'vendor name'
-    date = input("What is the date today: ")
-
-
+    name= input("Waht is your name?")
+    data = input("What is the date today?")
+    # print objects
+    print("Hello, ", name,"! Happy ",day,"!", sep="")
+    # concatenation
+    print("Hello, " + name + "! Happy " + day + "!")
+    # format method
+    print("Hello, {}! Happy {}!".format(name, day))
+    # f string
+    print(f"Hello, {name}! Happy {day}!")
 main()
 
 
