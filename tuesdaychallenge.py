@@ -13,3 +13,4 @@ def main():
    # print("Hi " + name.capitalize() + "! Welcome to Day " + str(nums[1]) + " of " + words["noun"] + " Training!")
     print(f"Hi {name.capitalize()}! Welcome to Day {nums[1]} of {words['noun']} Training!")
 main()
+
